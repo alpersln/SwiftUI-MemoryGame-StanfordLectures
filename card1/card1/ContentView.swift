@@ -25,8 +25,8 @@ struct ContentView: View {
             withAnimation(.easeInOut(duration: 2)){
                 self.viewModel.resetGame()
             }
-        }
-            
+        }.padding().foregroundColor(.red).background(RoundedRectangle(cornerRadius: 15).stroke(lineWidth: 1).foregroundColor(.red)
+            )
         
         
     }
